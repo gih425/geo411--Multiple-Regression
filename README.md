@@ -1,36 +1,26 @@
 # **Title**
-Improved Linear Regression Model for Housing Prices
+Linear Regression Model for Housing Prices
 
-#Overview
+#**Overview**
 
-This project improves a base linear regression model used to predict housing prices. The goal was to address issues in the original model, including unrealistic coefficient signs, omitted variables, and violations of regression assumptions, while increasing the model’s explanatory power.
+This project improves a base linear regression model used to predict housing prices based on 6 variables. The goal was to address issues in the original model and improve the model.
 
----
 
-# **c. Methods**
+# **Methods**
 
-The base model was modified by transforming the dependent variable to the natural logarithm of price to reduce skewness and improve model assumptions. Additional housing variables (floors, waterfront, and lot size) were included to better capture property characteristics. Less effective variables were removed, and socioeconomic indicators were improved by replacing HS and SC with BACH and prop_poverty. The improved model was evaluated using R², adjusted R², and diagnostic plots.
+The base model was edited by taking the log of price helps reduce extreme values and improves how well the model fits the data. Additional housing variables were included to the improved model. Less effective variables effecting skewness were removed, and economic indicators were improved by replacing the original variables. The improved model was evaluated using R², adjusted R², and diagnostic plots.
 
----
+# **Key Findings**
 
-# **d. Key Findings**
+The improved model has a higher R² and similar adjusted R², indicating less heteroskedacity. Coefficient signs are now more reasonable, and diagnostic plots improved to align more with regression assumptions. Variables such as square footage, bathrooms, and waterfront location positively influence price, while poverty levels negatively impact price.
 
-The improved model has a higher R² and similar adjusted R², indicating better explanatory power without overfitting. Coefficient signs are now more realistic, and diagnostic plots show improved adherence to regression assumptions. Variables such as square footage, bathrooms, and waterfront location positively influence price, while poverty levels negatively impact price.
 
----
+# **Tools**
 
-# **e. Tools**
+* RStudios
+* UBLearns
 
-* R
-* Linear regression (`lm()` function)
-* Diagnostic plots (`plot()` in R)
 
----
-
-# **f. Reflection**
+# **Reflection**
 
 This project demonstrated how model specification significantly impacts results. Small changes, such as transforming variables and selecting more appropriate predictors, can greatly improve model performance and interpretation. It also highlighted the importance of checking assumptions rather than relying solely on statistical output.
-
----
-
-If you want, I can make a **slightly more “A-level” version** (stronger wording) or format it as a **downloadable Word/PDF** 👍
