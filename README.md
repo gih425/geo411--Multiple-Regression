@@ -1,4 +1,4 @@
-#Title
+# **Title**
 Improved Linear Regression Model for Housing Prices
 
 #Overview
