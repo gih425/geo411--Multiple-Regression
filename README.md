@@ -23,4 +23,4 @@ The improved model has a higher R² and similar adjusted R², indicating less he
 
 # **Reflection**
 
-This project demonstrated how model specification significantly impacts results. Small changes, such as transforming variables and selecting more appropriate predictors, can greatly improve model performance and interpretation. It also highlighted the importance of checking assumptions rather than relying solely on statistical output.
+This project demonstrated how model variables may impacts results. Small changes can improve model performance and interpretation. It also proved the importance of checking assumptions rather than relying on statistical output.
