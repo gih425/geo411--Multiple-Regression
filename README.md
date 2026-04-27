@@ -1,7 +1,7 @@
 # **Title**
 Linear Regression Model for Housing Prices
 
-#**Overview**
+# **Overview**
 
 This project improves a base linear regression model used to predict housing prices based on 6 variables. The goal was to address issues in the original model and improve the model.
 
